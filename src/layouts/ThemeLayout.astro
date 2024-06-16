@@ -3,6 +3,8 @@ interface Props {
   title: string;
 }
 
+import { Navigation } from "../components/Navigation";
+
 const { title } = Astro.props;
 ---
 
@@ -17,6 +19,7 @@ const { title } = Astro.props;
     <title>{title}</title>
   </head>
   <body class="bg-mauve-app text-mauve-normal">
+    <Navigation />
     <slot />
   </body>
 </html>
