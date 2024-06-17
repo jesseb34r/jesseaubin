@@ -1,7 +1,7 @@
 export function Navigation() {
   return (
-    <nav>
-      <ul class="flex m-auto gap-gutter">
+    <nav class="mx-margin">
+      <ul class="flex m-auto gap-gutter mb-gutter">
         <li class="flex-grow">
           <a href="/" class="text-xl font-semibold hover:text-plum-dim transition-colors text-nowrap">
             Jesse<span class="max-tablet:hidden"> Aubin</span>
