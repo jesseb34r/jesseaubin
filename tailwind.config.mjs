@@ -1,5 +1,12 @@
 import tailwindcssRadixColors from "tailwindcss-radix-colors";
 
+const breakpoints = {
+  mobile: "20.75rem",
+  tablet: "42.75rem",
+  laptop: "64.75rem",
+  ultrawide: "86.75rem",
+};
+
 const spacing = {
   xs: "4.25rem",
   sm: "9.75rem",
@@ -13,12 +20,9 @@ const spacing = {
   "6xl": "53.75rem",
   "7xl": "59.25rem",
   "8xl": "64.75rem",
-  mobile: "20.75rem",
-  tablet: "42.75rem",
-  laptop: "64.75rem",
-  ultrawide: "86.75rem",
   gutter: "1.25rem",
   margin: "0.625rem",
+  ...breakpoints,
 };
 
 /** @type {import('tailwindcss').Config} */
@@ -50,6 +54,7 @@ export default {
       ],
     },
     spacing: spacing,
+    screens: breakpoints,
     extend: {},
   },
   plugins: [tailwindcssRadixColors],
