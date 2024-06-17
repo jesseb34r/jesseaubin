@@ -53,9 +53,10 @@ export default {
         "monospace",
       ],
     },
-    spacing: spacing,
     screens: breakpoints,
-    extend: {},
+    extend: {
+      spacing: spacing,
+    },
   },
   plugins: [tailwindcssRadixColors],
 };
