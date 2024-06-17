@@ -1,6 +1,6 @@
 import tailwindcssRadixColors from "tailwindcss-radix-colors";
 
-const size = {
+const spacing = {
   xs: "4.25rem",
   sm: "9.75rem",
   md: "15.25rem",
@@ -49,7 +49,7 @@ export default {
         "monospace",
       ],
     },
-    width: size,
+    spacing: spacing,
     extend: {},
   },
   plugins: [tailwindcssRadixColors],
