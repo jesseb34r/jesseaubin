@@ -1,10 +1,10 @@
 export function Navigation() {
   return (
-    <nav>
-      <ul class="flex max-w-2xl mx-auto my-margin gap-gutter">
+    <nav class="m-margin">
+      <ul class="flex max-w-2xl m-auto my-margin gap-gutter">
         <li class="flex-grow">
-          <a href="/" class="text-xl font-semibold hover:text-plum-dim transition-colors">
-            Jesse Aubin
+          <a href="/" class="text-xl font-semibold hover:text-plum-dim transition-colors text-nowrap">
+            Jesse<span class="max-tablet:hidden"> Aubin</span>
           </a>
         </li>
         <li>
