@@ -1,8 +1,6 @@
 ---
 import ThemeLayout from "../layouts/ThemeLayout.astro";
-import MarkdownLayout from "../layouts/MarkdownLayout.astro";
-
-import { Content as TailwindSample } from "../content/tailwind-typography-sample.md";
+import Prose from "../layouts/Prose.astro";
 ---
 
 <ThemeLayout title="Jesse Aubin">
@@ -10,7 +8,7 @@ import { Content as TailwindSample } from "../content/tailwind-typography-sample
     <div class="font-mono whitespace-pre text-plum-dim cursor-default">
       <p>{" /| ､\n(°､ ｡ 7\n |､ ~ヽ\n じしf_,)〳‎‎"}</p>
     </div>
-    <section class="prose prose-mauve dark:prose-invert">
+    <Prose>
       <h1 class="mb-margin">Jesse Aubin</h1>
       <span class="text-lg">Student, dad, and occasional front-end dev</span>
       <h2>Welcome to my corner of the internet!</h2>
@@ -28,10 +26,6 @@ import { Content as TailwindSample } from "../content/tailwind-typography-sample
         You can reach me with any questions or comments at <a href="mailto://jesse@jesseaubin.me">jesse@jesseaubin.me</a
         >
       </p>
-    </section>
-    <MarkdownLayout>
-      <h1>Tailwind Sample</h1>
-      <TailwindSample />
-    </MarkdownLayout>
+    </Prose>
   </main>
 </ThemeLayout>
