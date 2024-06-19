@@ -10,11 +10,13 @@ export default defineConfig({
     shikiConfig: {
       themes: {
         light: "catppuccin-latte",
-        dark: "catppuccin-mocha"
-      }
-    }
+        dark: "catppuccin-mocha",
+      },
+    },
   },
   integrations: [solidJs(), tailwind()],
   output: "server",
-  adapter: vercel()
+  adapter: vercel({
+    webAnalytics: { enabled: true },
+  }),
 });
