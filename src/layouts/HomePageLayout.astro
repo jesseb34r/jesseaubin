@@ -1,5 +1,6 @@
 ---
 import ThemeLayout from "../layouts/ThemeLayout.astro";
+import MarkdownLayout from "./MarkdownLayout.astro";
 ---
 
 <ThemeLayout title="Jesse Aubin">
@@ -7,6 +8,8 @@ import ThemeLayout from "../layouts/ThemeLayout.astro";
     <div class="font-mono whitespace-pre text-plum-dim cursor-default">
       <p>{" /| ､\n(°､ ｡ 7\n |､ ~ヽ\n じしf_,)〳‎‎"}</p>
     </div>
-    <slot />
+    <MarkdownLayout>
+      <slot />
+    </MarkdownLayout>
   </main>
 </ThemeLayout>
