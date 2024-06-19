@@ -22,6 +22,8 @@ const { title } = Astro.props;
   </head>
   <body class="bg-mauve-app text-mauve-normal max-w-2xl mx-auto my-margin">
     <Navigation />
-    <slot />
+    <main class="flex flex-col mx-margin">
+      <slot />
+    </main>
   </body>
 </html>
