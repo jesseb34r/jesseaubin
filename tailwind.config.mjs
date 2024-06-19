@@ -1,4 +1,5 @@
 import tailwindcssRadixColors from "tailwindcss-radix-colors";
+import tailwindcssProse from "@tailwindcss/typography";
 
 const breakpoints = {
   mobile: "20.75rem",
@@ -56,7 +57,47 @@ export default {
     screens: breakpoints,
     extend: {
       spacing: spacing,
+      typography: ({ theme }) => ({
+        mauve: {
+          css: {
+            "--tw-prose-body": theme("colors.mauve[11]"),
+            "--tw-prose-headings": theme("colors.mauve[12]"),
+            "--tw-prose-lead": theme("colors.mauve[10]"),
+            "--tw-prose-links": theme("colors.mauve[12]"),
+            "--tw-prose-bold": theme("colors.mauve[12]"),
+            "--tw-prose-counters": theme("colors.mauve[8]"),
+            "--tw-prose-bullets": theme("colors.mauve[4]"),
+            "--tw-prose-hr": theme("colors.mauve[3]"),
+            "--tw-prose-quotes": theme("colors.mauve[12]"),
+            "--tw-prose-quote-borders": theme("colors.mauve[3]"),
+            "--tw-prose-captions": theme("colors.mauve[10]"),
+            "--tw-prose-kbd": theme("colors.mauve[12]"),
+            "--tw-prose-code": theme("colors.mauve[12]"),
+            "--tw-prose-pre-code": theme("colors.mauve[11]"),
+            "--tw-prose-pre-bg": theme("colors.mauve[3]"),
+            "--tw-prose-th-borders": theme("colors.mauve[7]"),
+            "--tw-prose-td-borders": theme("colors.mauve[6]"),
+            "--tw-prose-invert-body": theme("colors.mauvedark[11]"),
+            "--tw-prose-invert-headings": theme("colors.mauvedark[12]"),
+            "--tw-prose-invert-lead": theme("colors.mauvedark[10]"),
+            "--tw-prose-invert-links": theme("colors.mauvedark[12]"),
+            "--tw-prose-invert-bold": theme("colors.mauvedark[12]"),
+            "--tw-prose-invert-counters": theme("colors.mauvedark[8]"),
+            "--tw-prose-invert-bullets": theme("colors.mauvedark[4]"),
+            "--tw-prose-invert-hr": theme("colors.mauvedark[3]"),
+            "--tw-prose-invert-quotes": theme("colors.mauvedark[12]"),
+            "--tw-prose-invert-quote-borders": theme("colors.mauvedark[3]"),
+            "--tw-prose-invert-captions": theme("colors.mauvedark[10]"),
+            "--tw-prose-invert-kbd": theme("colors.mauvedark[12]"),
+            "--tw-prose-invert-code": theme("colors.mauvedark[12]"),
+            "--tw-prose-invert-pre-code": theme("colors.mauvedark[11]"),
+            "--tw-prose-invert-pre-bg": theme("colors.mauvedark[3]"),
+            "--tw-prose-invert-th-borders": theme("colors.mauvedark[7]"),
+            "--tw-prose-invert-td-borders": theme("colors.mauvedark[6]"),
+          },
+        },
+      }),
     },
   },
-  plugins: [tailwindcssRadixColors],
+  plugins: [tailwindcssRadixColors, tailwindcssProse],
 };
