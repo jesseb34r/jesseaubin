@@ -1,5 +1,8 @@
 ---
 import ThemeLayout from "../layouts/ThemeLayout.astro";
+import MarkdownLayout from "../layouts/MarkdownLayout.astro";
+
+import { Content as TailwindSample } from "../content/tailwind-typography-sample.md";
 ---
 
 <ThemeLayout title="Jesse Aubin">
@@ -22,10 +25,13 @@ import ThemeLayout from "../layouts/ThemeLayout.astro";
       <p>Check out my <a href="/notes">Notes</a> to see the ideas I'm currently thinking about</p>
       <h2>Contact Me</h2>
       <p>
-        You can reach me with any questions or comments at <link
-          href="mailto://jesse@jesseaubin.me"
-        />jesse@jesseaubin.me
+        You can reach me with any questions or comments at <a href="mailto://jesse@jesseaubin.me">jesse@jesseaubin.me</a
+        >
       </p>
     </section>
+    <MarkdownLayout>
+      <h1>Tailwind Sample</h1>
+      <TailwindSample />
+    </MarkdownLayout>
   </main>
 </ThemeLayout>
