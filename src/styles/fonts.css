@@ -1,252 +1,162 @@
 @font-face {
     font-family: 'Iosevka Comfy Wide';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-bold-latin.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Iosevka Comfy Wide';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: italic;
     src: url('/fonts/iosevka-comfy-wide-bolditalic-latin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Iosevka Comfy Wide';
+    font-family: 'Iosevka Comfy Wide Duo';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-duo-bold-latin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Iosevka Comfy Wide';
+    font-family: 'Iosevka Comfy Wide Duo';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: italic;
     src: url('/fonts/iosevka-comfy-wide-duo-bolditalic-latin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Iosevka Comfy Wide';
+    font-family: 'Iosevka Comfy Wide Duo';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-duo-extrabold-latin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Iosevka Comfy Wide';
+    font-family: 'Iosevka Comfy Wide Duo';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: italic;
     src: url('/fonts/iosevka-comfy-wide-duo-extrabolditalic-latin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Iosevka Comfy Wide';
+    font-family: 'Iosevka Comfy Wide Duo';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 500;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-duo-italic-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-duo-light-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-duo-lightitalic-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-duo-medium-latin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Iosevka Comfy Wide';
+    font-family: 'Iosevka Comfy Wide Duo';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 500;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: italic;
     src: url('/fonts/iosevka-comfy-wide-duo-mediumitalic-latin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Iosevka Comfy Wide';
+    font-family: 'Iosevka Comfy Wide Duo';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 400;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-duo-regular-latin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Iosevka Comfy Wide';
+    font-family: 'Iosevka Comfy Wide Duo';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-duo-semibold-latin.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'Iosevka Comfy Wide';
+    font-family: 'Iosevka Comfy Wide Duo';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: italic;
     src: url('/fonts/iosevka-comfy-wide-duo-semibolditalic-latin.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Iosevka Comfy Wide';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-duo-semilight-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-duo-semilightitalic-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-extrabold-latin.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Iosevka Comfy Wide';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: italic;
     src: url('/fonts/iosevka-comfy-wide-extrabolditalic-latin.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Iosevka Comfy Wide';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 500;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-italic-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-light-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-lightitalic-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-medium-latin.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Iosevka Comfy Wide';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 500;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: italic;
     src: url('/fonts/iosevka-comfy-wide-mediumitalic-latin.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Iosevka Comfy Wide';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 400;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-regular-latin.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Iosevka Comfy Wide';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: normal;
     src: url('/fonts/iosevka-comfy-wide-semibold-latin.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Iosevka Comfy Wide';
     font-display: swap;
-    font-weight: Iosevka Comfy Wide;
+    font-weight: 700;
     font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
+    font-style: italic;
     src: url('/fonts/iosevka-comfy-wide-semibolditalic-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-semilight-latin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Iosevka Comfy Wide';
-    font-display: swap;
-    font-weight: Iosevka Comfy Wide;
-    font-stretch: normal;
-    font-style: Iosevka Comfy Wide;
-    src: url('/fonts/iosevka-comfy-wide-semilightitalic-latin.woff2') format('woff2');
 }
 
