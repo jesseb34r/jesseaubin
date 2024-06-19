@@ -43,7 +43,7 @@ export default {
       ],
       serif: ["Iosevka Etoile", "ui-serif", "Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
       mono: [
-        "Iosevka Term",
+        "Iosevka Term Extended",
         "ui-monospace",
         "SFMono-Regular",
         "Menlo",
