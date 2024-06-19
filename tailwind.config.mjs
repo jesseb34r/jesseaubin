@@ -32,7 +32,7 @@ export default {
   theme: {
     fontFamily: {
       sans: [
-        "Iosevka Aile Web",
+        "Iosevka Comfy Wide Duo",
         "ui-sans-serif",
         "system-ui",
         "sans-serif",
@@ -43,7 +43,7 @@ export default {
       ],
       serif: ["Iosevka Etoile", "ui-serif", "Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
       mono: [
-        "Iosevka Term Curly Web",
+        "Iosevka Comfy Wide",
         "ui-monospace",
         "SFMono-Regular",
         "Menlo",

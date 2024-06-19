@@ -4,8 +4,7 @@ interface Props {
 }
 
 import { Navigation } from "../components/Navigation";
-import "../styles/IosevkaAile.css";
-import "../styles/IosevkaTermCurly.css";
+import "../styles/fonts.css";
 
 const { title } = Astro.props;
 ---
@@ -17,7 +16,7 @@ const { title } = Astro.props;
     <meta name="description" content="Jesse Aubin's corner of the internet" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preload" as="font" href="/fonts/IosevkaAile-Regular.woff2" crossorigin />
+    <link rel="preload" as="font" href="/fonts/iosevka-comfy-wide-duo-regular-latin.woff2" crossorigin />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>

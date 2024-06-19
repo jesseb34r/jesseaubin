@@ -22,4 +22,9 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Vercel settings
 .vercel
+
+# Local Unoptimized Fonts
+local-fonts
