@@ -15,7 +15,7 @@ export default defineConfig({
     },
   },
   integrations: [solidJs(), tailwind()],
-  output: "server",
+  output: "hybrid",
   adapter: vercel({
     webAnalytics: { enabled: true },
   }),
