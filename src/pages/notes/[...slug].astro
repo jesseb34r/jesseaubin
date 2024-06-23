@@ -1,7 +1,7 @@
 ---
 import ThemeLayout from "../../layouts/ThemeLayout.astro";
 import Prose from "../../layouts/Prose.astro";
-import { getEntry, getCollection } from "astro:content";
+import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
   const notes = await getCollection("notes");
