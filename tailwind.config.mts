@@ -1,6 +1,6 @@
 import tailwindcssRadixColors from "tailwindcss-radix-colors";
 import tailwindcssProse from "@tailwindcss/typography";
-import { Config } from "tailwindcss";
+import type { Config } from "tailwindcss";
 
 const breakpoints = {
   mobile: "20.75rem",
@@ -57,6 +57,7 @@ const config: Config = {
     screens: breakpoints,
     extend: {
       spacing: spacing,
+      // @ts-expect-error
       typography: ({ theme }) => ({
         mauve: {
           css: {
