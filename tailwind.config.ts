@@ -1,5 +1,6 @@
 import tailwindcssRadixColors from "tailwindcss-radix-colors";
 import tailwindcssProse from "@tailwindcss/typography";
+import { Config } from "tailwindcss";
 
 const breakpoints = {
   mobile: "20.75rem",
@@ -26,8 +27,7 @@ const spacing = {
   ...breakpoints,
 };
 
-/** @type {import('tailwindcss').Config} */
-export default {
+const config: Config = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     fontFamily: {
@@ -101,3 +101,5 @@ export default {
   },
   plugins: [tailwindcssRadixColors, tailwindcssProse],
 };
+
+export default config;
