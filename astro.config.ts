@@ -25,6 +25,9 @@ export default defineConfig({
       ],
     ],
   },
+  redirects: {
+    "/notes": "/notes/about-these-notes",
+  },
   integrations: [solidJs(), tailwind()],
   output: "hybrid",
   adapter: vercel({

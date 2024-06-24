@@ -18,7 +18,7 @@ export function Navigation() {
           </a>
         </li>
         <li>
-          <a href="/notes" class="hover:underline hover:font-semibold">
+          <a href="/notes/about-these-notes" class="hover:underline hover:font-semibold">
             Notes
           </a>
         </li>
