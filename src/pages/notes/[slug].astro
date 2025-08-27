@@ -1,21 +1,21 @@
 ---
 import ThemeLayout from "../../layouts/ThemeLayout.astro";
 import Prose from "../../layouts/Prose.astro";
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
-  const notes = await getCollection("notes");
-  return notes.map((note) => ({
-    params: { slug: note.slug },
-    props: { note },
-  }));
+    const notes = await getCollection("notes");
+    return notes.map((note) => ({
+        params: { slug: note.id },
+        props: { note },
+    }));
 }
 
 const { note } = Astro.props;
 
-const { Content } = await note.render();
+const { Content } = await render(note);
 ---
 
 <ThemeLayout title={note.id}>
-  <Prose><Content /></Prose>
+    <Prose><Content /></Prose>
 </ThemeLayout>
